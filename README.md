@@ -1,17 +1,14 @@
-# machine_learning_project-unsupervised-learning
+# Wholesale Customer Segmentation Project
 
-## Project Outcomes
-- Unsupervised Learning: perform unsupervised learning techniques on a wholesale data dataset. The project involves four main parts: exploratory data analysis and pre-processing, KMeans clustering, hierarchical clustering, and PCA.
-### Duration:
-Approximately 1 hour and 40 minutes
-### Project Description:
-In this project, we will apply unsupervised learning techniques to a real-world data set and use data visualization tools to communicate the insights gained from the analysis.
+### Overview
+This project uses unsupervised learning to group wholesale customers by their yearly spending in different product categories. The repository contains the process of data cleaning to detailed customer segmentation, using techniques like PCA and clustering algorithms to derive insights.
 
-The data set for this project is the "Wholesale Data" dataset containing information about various products sold by a grocery store.
-The project will involve the following tasks:
+### Dataset 
+The 'Wholesale_Data.csv' dataset encompasses a snapshot of the client base of a wholesale distributor. It contains six product categories that tracks the clients' spendings: Fresh, Milk, Grocery, Frozen, Detergents_Paper, and Delicatessen.
 
--	Exploratory data analysis and pre-processing: We will import and clean the data sets, analyze and visualize the relationships between the different variables, handle missing values and outliers, and perform feature engineering as needed.
--	Unsupervised learning: We will use the Wholesale Data dataset to perform k-means clustering, hierarchical clustering, and principal component analysis (PCA) to identify patterns and group similar data points together. We will determine the optimal number of clusters and communicate the insights gained through data visualization.
+### Navigating the Project
+In the Data Preprocessing stage, we standardized the data and removed the outliers to prepare for analysis. During the Exploratory Data Analysis (EDA) phase, we analyzed the distributions and relationships between features, identifying skewness in various categories. For Dimensionality Reduction with PCA, Principal Component Analysis (PCA) was used to simplify the dataset to its most significant components, capturing the core of customer spending patterns. In Clustering Dynamics, we applied KMeans and Hierarchical clustering to divide our customer base into clear segments. Finally, we interpreted our analysis into distinct customer profiles and highlight their spending patterns.
 
-The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
+### Summary of findings
+Our EDA highlighted skewed distributions hinting at diverse purchasing amounts. The PCA underscored that over 90% of customer behavior variance was encapsulated within the first four principal components, with the primary component being significantly loaded on staple goods and the second on perishables. The clustering process carved out 4 principal segments from our customer base: smaller markets with higher spending on fresh products, convenience stores with diverse grocery and household goods selections, restaurants focusing on fresh and frozen ingredients, and establishments with a moderate, balanced expenditure across most categories except frozen goods.
 
